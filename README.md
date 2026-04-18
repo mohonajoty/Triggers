@@ -42,18 +42,30 @@ Change Timestamp
 Note about the update
 
 🎯 Purpose of the Project
+
 To demonstrate the power of database triggers
+
 To automate salary processing without manual calculation
+
 To maintain an audit trail of salary changes
+
 To improve data integrity and consistency
 
 🧠 Key Concepts Used
+
 MySQL Database Design
+
 Primary & Foreign Keys
+
 BEFORE UPDATE Trigger
+
 AFTER UPDATE Trigger
+
 Conditional Logic in SQL
+
 Automatic Logging System
+
+
 🚀 Result
 
 After execution:
