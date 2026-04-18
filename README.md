@@ -18,15 +18,19 @@ This trigger automatically calculates:
 Increment Rate (%)
 Updated Salary
 
+
 Salary increment is determined based on:
 
 Job duration (calculated from StartDate)
 Number of publications (NoOfPub)
+
 📊 Salary Rules:
+
 If job duration > 1 year and publications > 4 → 20% increase
 If job duration > 1 year and publications = 2 or 3 → 10% increase
 If job duration > 1 year and publications = 1 → 5% increase
 If publications = 0 OR job duration ≤ 1 year → 0% increase
+
 🔹 AFTER UPDATE Trigger
 
 This trigger automatically stores salary change history in the SALARY_LOG table whenever an employee’s salary is updated. It records:
@@ -35,11 +39,13 @@ Old Salary
 New Salary
 Change Timestamp
 Note about the update
+
 🎯 Purpose of the Project
 To demonstrate the power of database triggers
 To automate salary processing without manual calculation
 To maintain an audit trail of salary changes
 To improve data integrity and consistency
+
 🧠 Key Concepts Used
 MySQL Database Design
 Primary & Foreign Keys
