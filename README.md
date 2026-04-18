@@ -7,6 +7,7 @@ The system consists of two main tables:
 
 EMPLOYEE → stores basic employee information including salary, joining date, and number of publications
 SALARY_LOG → stores the history of salary changes for auditing purposes
+
 ⚙️ How It Works
 
 The system uses SQL triggers to automatically handle salary updates based on predefined rules.
